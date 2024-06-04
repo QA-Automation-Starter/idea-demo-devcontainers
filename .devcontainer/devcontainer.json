@@ -3,9 +3,5 @@
 //	name of the dev container
 	"name": "idea-demo",
 //	Or use a Dockerfile here, more info: https://containers.dev/guide/dockerfile
-	"image":  "openjdk:11",
-	"runArgs": [
-  		"--userns=keep-id"
-	],
-	"remoteUser": "adrianherscu"
+	"image":  "openjdk:11"
 }
